@@ -188,7 +188,7 @@ case 'comandos':
             { name: '**:heavy_plus_sign: --add @usuario**', value: '> Agrega a un usuario específico a tu canal de voz.' },
             { name: '**:information_source: --ayuda**', value: '> Muestra una lista de funcionalidades y comandos que ofrece el bot.' } // Añadido aquí
         )
-        .setFooter({ text: `Fecha: ${new Date().toLocaleDateString()} | by albertin | Ax-bot V1.5` });
+        .setFooter({ text: `Fecha: ${new Date().toLocaleDateString()} | by albertin` });
 
     message.channel.send({ embeds: [comandosEmbed] });
     break;         
