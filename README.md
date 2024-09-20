@@ -1,4 +1,4 @@
-# Lista de comandos del bot
+## Lista de comandos del bot
 
 **:wrench: --limit <número>**
 > Establece el límite de usuarios en tu canal de voz temporal. Por ejemplo: `--limit 5.`
@@ -18,10 +18,20 @@
 **:heavy_plus_sign: --add @usuario**
 > Agrega a un usuario específico a tu canal de voz. Ejemplo: `--add @Usuario.`
 
-# Capturas de uso
+## Codigo
+> [!NOTE]
+> `12 |` const prefix = '--'; //cambia el prefix del bot \
+> `16 |` const monitoredVoiceChannelIDs = ['xxxxxxxxxxxxxxxx' // establece el id del canal de voz donde se uniran para crear 
+]; \
+> `19 |` const bypassRoles = ['xxxxxxxxxxxxxxx', 'xxxxxxxxxxxxxx']; // id de los roles para que no les afecte los comandos como kick lock etc \
+> `200 |` client.login('TOKEN DE TU BOT'); // token de tu bot \
+> `Los numeros hacen referencia al numero de linea de codigo donde se encuentra cada variable`
+
+
+## Capturas de uso
 `muy pronto`
 
-# Soporte
+### Soporte
 https://me.albertin.xyz
 
 Discord: https://discord.gg/wzvcNu8Fga
